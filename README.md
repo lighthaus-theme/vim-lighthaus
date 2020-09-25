@@ -26,7 +26,7 @@ Save and Restart vim to activate.
 
 ### Version
 ```
-v 1.0.0
+v 1.0.1
 ```
 
 _Lighthaus and all it's projects use [Semantic Versioning](https://semver.org/)._ <br/>

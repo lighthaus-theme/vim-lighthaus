@@ -1,9 +1,13 @@
 # Changelog
 
 ### Table of Contents
+- [v1.0.1](#v1.0.1)
 - [v1.0.0](#v1.0.0)
 - [Versioning System](#versioning-system)
 - [License](#license)
+
+### v1.0.1
+- Changed double quotes to single quotes in accordance with [Google VimScript Style Guide (Strings)](https://google.github.io/styleguide/vimscriptguide.xml?showone=Strings#Strings) (25/09/2020)
 
 ### v1.0.0
 - Initial Commit vim-Airline Theme (25/09/2020)

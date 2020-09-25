@@ -8,31 +8,31 @@
 " Copyright © 2020-Present Vasundhara Sharma
 
 
-let s:lighthaus_vim_v="1.0.0"
+let s:lighthaus_vim_v='1.0.0'
 
 
 " COLOR PALETTE
 
-let s:lh_gui1="#21252D"
-let s:lh_gui2="#00BFA4"
-let s:lh_gui3="#FFFADE"
-let s:lh_gui4="#090B26"
-let s:lh_gui5="#50C16E"
-let s:lh_gui6="#ED722E"
-let s:lh_gui7="#FF5050"
-let s:lh_gui8="#CCCCCC"
-let s:lh_gui9="#FC2929"
+let s:lh_gui1='#21252D'
+let s:lh_gui2='#00BFA4'
+let s:lh_gui3='#FFFADE'
+let s:lh_gui4='#090B26'
+let s:lh_gui5='#50C16E'
+let s:lh_gui6='#ED722E'
+let s:lh_gui7='#FF5050'
+let s:lh_gui8='#CCCCCC'
+let s:lh_gui9='#FC2929'
 
 
-let s:lh_cterm1="234"
-let s:lh_cterm2="43"
-let s:lh_cterm3="230"
-let s:lh_cterm4="233"
-let s:lh_cterm5="71"
-let s:lh_cterm6="208"
-let s:lh_cterm7="203"
-let s:lh_cterm8="188"
-let s:lh_cterm9="196"
+let s:lh_cterm1='234'
+let s:lh_cterm2='43'
+let s:lh_cterm3='230'
+let s:lh_cterm4='233'
+let s:lh_cterm5='71'
+let s:lh_cterm6='208'
+let s:lh_cterm7='203'
+let s:lh_cterm8='188'
+let s:lh_cterm9='196'
 
 let g:airline#themes#jet#palette = {}
 
@@ -105,11 +105,11 @@ let g:airline#themes#jet#palette.insert_error = {
       \ 'airline_c': [ s:lh_gui9 , s:lh_gui1  , 237 , s:lh_cterm1 , '' ] ,
       \ }
 
-" Settings
-	let g:airline_symbols.paste = 'P'
-	let g:airline_symbols.spell = 'S'
-	let g:airline_section_z = airline#section#create(['%1p%% — ',
-		\ '%l%#__restore__#', ':%c'])
+" SETTINGS
+let g:airline_symbols.paste = 'P'
+let g:airline_symbols.spell = 'S'
+let g:airline_section_z = airline#section#create(['%1p%% — ',
+      \ '%l%#__restore__#', ':%c'])
 
 " CtrlP
 if !get(g:, 'loaded_ctrlp', 0)
