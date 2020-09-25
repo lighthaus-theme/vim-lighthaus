@@ -33,7 +33,7 @@ _Lighthaus and all it's projects use [Semantic Versioning](https://semver.org/).
 All changes are recorded in [CHANGELOG](https://github.com/lighthaus-theme/vim/blob/master/CHANGELOG.md)
 
 ### Bugs/Issues
-Please report any bugs or issues at the project's [official repo](https://github.com/lighthaus-theme/vim/issues).
+Please report any bugs or issues [here](https://github.com/lighthaus-theme/vim/issues).
 
 ### License
 
