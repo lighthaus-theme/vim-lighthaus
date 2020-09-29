@@ -8,7 +8,7 @@
 " Copyright © 2020-Present Vasundhara Sharma
 
 
-let s:lighthaus_vim_v='1.0.0'
+let s:lighthaus_vim_v='1.0.1'
 
 
 " COLOR PALETTE
