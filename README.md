@@ -1,6 +1,7 @@
 # Vim Lighthaus
 A [Lighthaus](https://github.com/lighthaus-theme/lighthaus) theme for [Vim-Airline](https://github.com/vim-airline/vim-airline). <br>
-_Lighthaus theme for vim to follow soon_
+_Lighthaus theme for vim to follow soon_ <br>
+_Lighthaus theme for vim [lightline](https://github.com/itchyny/lightline.vim) to follow soon_
 
 ### Table of Contents
 - [Screenshots](#screenshots)
