@@ -1,33 +1,69 @@
 # Vim Lighthaus
 A [Lighthaus](https://github.com/lighthaus-theme/lighthaus) theme for [Vim-Airline](https://github.com/vim-airline/vim-airline). <br>
+A [Lighthaus](https://github.com/lighthaus-theme/lighthaus) theme for [Lightline](https://github.com/Brutuski/lightline.vim). <br>
 _Lighthaus theme for vim to follow soon_ <br>
 _Lighthaus theme for vim [lightline](https://github.com/itchyny/lightline.vim) to follow soon_
 
 ### Table of Contents
 - [Screenshots](#screenshots)
 - [Installation](#installation)
+  - [Vim-Airline](#vim-airline)
+  - [Lightline](#lightline)
 - [Version](#version)
 - [Bugs/Issues](#bugs/issues)
 - [License](#license)
 
 ### Screenshots
+Vim-Airline
 <p align="center"><img src="https://raw.githubusercontent.com/lighthaus-theme/vim/master/vim-airline/lighthaus-airline.png"><p>
+
+Lightline-Vim
+<p align="center"><img src="https://raw.githubusercontent.com/lighthaus-theme/vim/master/lightline/lighthaus-lightline.png"><p>
+
+Vim-Airline demo
 <p align="center"><a href="https://asciinema.org/a/361711" target="_blank"><img src="https://asciinema.org/a/361711.svg" /></a></p>
 
+Lightline demo
+<p align="center"><a href="https://asciinema.org/a/363545" target="_blank"><img src="https://asciinema.org/a/363545.svg" /></a></p>
+
+
 ### Installation
-**Lighthaus Theme will soon  come bundled with the official Vim-Airline Themes.** <br>
+
+#### Vim-Airline
+**Lighthaus Theme will soon come bundled with the official Vim-Airline Themes. [Pull request](https://github.com/vim-airline/vim-airline-themes/pull/230) submitted** <br>
+
 Install [Vim Airline](https://github.com/vim-airline/vim-airline) from the official source. <br>
 Install [Vim-Airline-Themes](https://github.com/vim-airline/vim-airline-themes#vim-airline-themes--). <br>
-After successfully installing vim-airline, simply add the following line to your `.vimrc`
-```
+After successfully installing vim-airline, simply add the following line to your `.vimrc`:
+
+``` vim
 let g:airline_theme='lighthaus'
 ```
-Save and Restart vim to activate.
+Save and restart vim to activate to activate the theme.<br>
+<br>
 
+#### Lightline
+**Lighthaus Theme will soon come bundled with the official Lightline.vim Themes. [Pull request](https://github.com/itchyny/lightline.vim/pull/514) submitted**<br>
+
+Install [Lightline.vim](https://github.com/Brutuski/lightline.vim) from the official source.<br>
+After successfully installing lightline, download [lighthaus.vim](https://github.com/lighthaus-theme/vim/blob/master/lightline/src/lighthaus.vim) and copy it into the folder `autoload/lightline/colorscheme` located inside the `~/.vim` folder. <br>
+
+Refer to the official project [README](https://github.com/itchyny/lightline.vim) for more details. <br>
+
+To activate the Lighthaus theme, edit the following in your `~/.vimrc`
+
+``` vim
+let g:lightline = {
+      \ 'colorscheme': 'lighthaus',
+      \ }
+```
+
+Save and restart vim to activate the theme.
 
 ### Version
 ```
-v 1.0.1
+v 1.0.1 vim-airline
+v 1.0.0 lightline
 ```
 
 _Lighthaus and all it's projects use [Semantic Versioning](https://semver.org/)._ <br/>

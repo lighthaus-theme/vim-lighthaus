@@ -1,16 +1,24 @@
 # Changelog
 
 ### Table of Contents
-- [v1.0.1](#v1.0.1)
-- [v1.0.0](#v1.0.0)
+- [Vim-Airline](#vim-airline)
+  - v1.0.1
+  - v1.0.0
+- [Lightline](#lightline)
+  - v1.0.0
 - [Versioning System](#versioning-system)
 - [License](#license)
 
-### v1.0.1
+### Vim-Airline
+#### v1.0.1
 - Changed double quotes to single quotes in accordance with [Google VimScript Style Guide (Strings)](https://google.github.io/styleguide/vimscriptguide.xml?showone=Strings#Strings) (25/09/2020)
 
-### v1.0.0
-- Initial Commit vim-Airline Theme (25/09/2020)
+#### v1.0.0
+- Initial Commit lightline Theme (05/10/2020)
+
+### Lightline
+#### v1.0.0
+- Initial Commit lightline Theme (05/10/2020)
 
 ### Versioning System
 Lighthaus and all it's projects use [Semantic Versioning](https://semver.org/).  <br/>
