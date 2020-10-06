@@ -34,7 +34,7 @@ Lightline demo
 
 Install [Vim Airline](https://github.com/vim-airline/vim-airline) from the official source. <br>
 Install [Vim-Airline-Themes](https://github.com/vim-airline/vim-airline-themes#vim-airline-themes--). <br>
-After successfully installing vim-airline, simply add the following line to your `.vimrc`:
+After successfully installing and configuring vim-airline, simply add the following line to your `.vimrc`:
 
 ``` vim
 let g:airline_theme='lighthaus'
@@ -43,10 +43,8 @@ Save and restart vim to activate to activate the theme.<br>
 <br>
 
 #### Lightline
-**Lighthaus Theme will soon come bundled with the official Lightline.vim Themes. [Pull request](https://github.com/itchyny/lightline.vim/pull/514) submitted**<br>
-
 Install [Lightline.vim](https://github.com/Brutuski/lightline.vim) from the official source.<br>
-After successfully installing lightline, download [lighthaus.vim](https://github.com/lighthaus-theme/vim/blob/master/lightline/src/lighthaus.vim) and copy it into the folder `autoload/lightline/colorscheme` located inside the `~/.vim` folder. <br>
+After successfully installing and configuring lightline, download [lighthaus.vim](https://github.com/lighthaus-theme/vim/blob/master/lightline/src/lighthaus.vim) and copy it into the folder `autoload/lightline/colorscheme` located inside the `~/.vim` folder. <br>
 
 Refer to the official project [README](https://github.com/itchyny/lightline.vim) for more details. <br>
 
