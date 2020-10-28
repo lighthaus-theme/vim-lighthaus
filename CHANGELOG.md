@@ -2,6 +2,7 @@
 
 ### Table of Contents
 - [Vim-Airline](#vim-airline)
+  - v1.0.2
   - v1.0.1
   - v1.0.0
 - [Lightline](#lightline)
@@ -10,6 +11,9 @@
 - [License](#license)
 
 ### Vim-Airline
+#### v1.0.0
+- Configured Variables (22/10/2020)
+
 #### v1.0.1
 - Changed double quotes to single quotes in accordance with [Google VimScript Style Guide (Strings)](https://google.github.io/styleguide/vimscriptguide.xml?showone=Strings#Strings) (25/09/2020)
 
