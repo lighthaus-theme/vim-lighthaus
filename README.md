@@ -21,7 +21,7 @@ Lightline-Vim
 <p align="center"><img src="https://raw.githubusercontent.com/lighthaus-theme/vim/master/lightline/lighthaus-lightline.png"><p>
 
 Vim-Airline demo
-<p align="center"><a href="https://asciinema.org/a/361711" target="_blank"><img src="https://asciinema.org/a/361711.svg" /></a></p>
+<p align="center"><a href="https://asciinema.org/a/368609" target="_blank"><img src="https://asciinema.org/a/368609.svg" /></a></p>
 
 Lightline demo
 <p align="center"><a href="https://asciinema.org/a/363545" target="_blank"><img src="https://asciinema.org/a/363545.svg" /></a></p>
@@ -59,8 +59,8 @@ let g:lightline = {
 Save and restart vim to activate the theme.
 
 ### Version
-```
-v 1.0.1 vim-airline
+```v
+v 1.0.2 vim-airline
 v 1.0.0 lightline
 ```
 
