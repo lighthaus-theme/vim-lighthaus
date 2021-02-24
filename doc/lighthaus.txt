@@ -1,0 +1,93 @@
+*lighthaus.txt* 		For Vim version 8 or newer		Last change: 2021 Feb 24
+
+				Lighthaus Vim Theme
+                                                                *lighthaus*
+                                                                *lighthaus-theme*
+                                                                *lighthaus-colorscheme*
+                                                                *lighthaus-vim*
+
+====================================================================================
+CONTENTS                                                          *lighthaus-contents*
+
+    1. Intro ---------------------------------------------------- |lighthaus-intro|
+    2. Install -------------------------------------------------- |lighthaus-install|
+    3. Bugs ----------------------------------------------------- |lighthaus-bugs|
+    4. License -------------------------------------------------- |lighthaus-license|
+    5. Artwork -------------------------------------------------- |lighthaus-artwork|
+
+====================================================================================
+INTRO                                                                *lighthaus-intro*
+
+Lighthaus aims to be a palette with a mixture of bright and subdued colors to create 
+a visually balanced theme.
+For all details and screenshots, please refer to the github repo 
+https://github.com/lighthaus-theme/vim
+
+Lighthaus vim plugin contains the following:
+
+    - Lighthaus colorscheme for vim
+    - Lighthaus colorscheme for vim-airline
+      https://github.com/vim-airline/vim-airline
+    - Lighthaus colorscheme for lightline
+      https://github.com/itchyny/lightline.vim
+
+====================================================================================
+INSTALL                                                            *lighthaus-install*
+
+Lighthaus can be installed using any of the popular plugin managers like:
+    - Vim-Pathogen: https://github.com/tpope/vim-pathogen
+    - Vim-Plug: https://github.com/junegunn/vim-plug
+    - Vundle: https://github.com/VundleVim/Vundle.vim
+
+To install using Vim-Plug:
+
+1- Put the following to your vim-plug's installation function in your vimrc
+    `Plug 'lighthaus-theme/vim'`
+
+2- Save the changes
+
+3- Run the following command inside vim to complete the installation
+    `:PlugInstall`
+
+4- After the installation put the following lines in your .vimrc to activate
+the theme
+    `syntax enable`
+    `colorscheme lighthaus`
+
+5- Restart vim
+
+To use Lighthaus colorscheme for vim-airline, put the following line in your
+.vimrc
+    `let g:airline_theme='lighthaus'`
+Save and restart vim to activate.
+
+To use Lighthaus colorscheme for lightline, put the following line in your
+.vimrc
+    `let g:lightline = { 'colorscheme': 'lighthaus' }`
+Save and restart vim to activate.
+
+====================================================================================
+BUGS                                                                  *lighthaus-bugs*
+
+If you would like to report any bugs, go to the following link and start a new
+issue
+https://github.com/lighthaus-theme/vim/issues
+
+====================================================================================
+LICENSE                                                            *lighthaus-license*
+
+MIT License : https://github.com/lighthaus-theme/vim/blob/master/LICENSE
+Copyright (c) 2020 Lighthaus Theme
+Copyright (c) 2020 Adhiraj Sirohi
+Copyright (c) 2020 Vasundhara Sharma
+
+====================================================================================
+ARTWORK                                                            *lighthaus-artwork*
+
+Artwork courtesy Vasundhara Sharma
+https://vasdesigns.de/
+https://www.behance.net/vasundhsharma
+https://keybase.io/vas_sharma
+
+
+vim:tw=78:noet:ts=8:ft=help:norl:
