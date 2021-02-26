@@ -43,10 +43,9 @@ Lightline-Vim
 <p align="center"><img src="https://github.com/lighthaus-theme/vim/blob/master/assets/lighthaus-lightline.png?raw=true"><p>
 
 Vim-Airline demo
-<p align="center"><img src="https://github.com/lighthaus-theme/vim/blob/master/assets/airline.gif?raw=true"><p>
-
+<p align="center"><img src="https://raw.githubusercontent.com/lighthaus-theme/demo-assets/main/assets/airline.gif"><p>
 Lightline demo
-<p align="center"><img src="https://github.com/lighthaus-theme/vim/blob/master/assets/lightline.gif?raw=true"><p>
+<p align="center"><img src="https://raw.githubusercontent.com/lighthaus-theme/demo-assets/main/assets/lightline.gif"><p>
 
 
 ### Installation
