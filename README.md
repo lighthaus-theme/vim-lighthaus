@@ -3,7 +3,9 @@
 <h2 align="center">Vim Lighthaus</h2>
 
 A [Lighthaus](https://github.com/lighthaus-theme/lighthaus) theme for [Vim](https://github.com/vim/vim).
+
 A [Lighthaus](https://github.com/lighthaus-theme/lighthaus) theme for [Vim-Airline](https://github.com/vim-airline/vim-airline).
+
 A [Lighthaus](https://github.com/lighthaus-theme/lighthaus) theme for [Lightline](https://github.com/Brutuski/lightline.vim).
 
 
