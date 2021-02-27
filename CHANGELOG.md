@@ -3,6 +3,7 @@
 ### Table of Contents
 - [vim](#vim)
   - v1.0.0
+  - v1.0.1
 - [Vim-Airline](#vim-airline)
   - v1.0.2
   - v1.0.1
@@ -13,6 +14,9 @@
 - [License](#license)
 
 ### Vim
+#### v1.0.1
+- Neovim colors corrected (27/02/2021)
+
 #### v1.0.0
 - Initial Commit Vim Lighthaus Theme (24/02/2021)
 

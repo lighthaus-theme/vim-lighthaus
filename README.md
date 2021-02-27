@@ -90,7 +90,7 @@ Save and restart vim to activate the theme.
 
 ### Version
 ```vim
-v 1.0.0 vim
+v 1.0.1 vim
 v 1.0.2 vim-airline
 v 1.0.0 lightline
 ```

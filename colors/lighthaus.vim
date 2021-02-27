@@ -17,7 +17,7 @@ if exists("syntax_on")
 endif
 
 let g:colors_name = "lighthaus"
-let g:version     = "1.0.0"
+let g:version     = "1.0.1"
 " }
 
 
