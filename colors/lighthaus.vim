@@ -475,6 +475,7 @@ call s:h("plugDeleted",   s:red,      "",   "")
 " {
 call s:h("SignatureMarkText",   s:hl_orange,    "",   "")
 
+
 " }
 " ― ― ― ― ― ― ― ― ― 
 " NEOVIM COLOR BUFFER
@@ -484,19 +485,19 @@ call s:h("SignatureMarkText",   s:hl_orange,    "",   "")
     let g:terminal_color_0            = s:black.gui
     let g:terminal_color_1            = s:red.gui
     let g:terminal_color_2            = s:green.gui
-    let g:terminal_color_3            = s:yellow.gui
+    let g:terminal_color_3            = s:orange.gui
     let g:terminal_color_4            = s:blue.gui
     let g:terminal_color_5            = s:purple.gui
     let g:terminal_color_6            = s:cyan.gui
     let g:terminal_color_7            = s:white.gui
-    let g:terminal_color_8            = s:black.gui
-    let g:terminal_color_9            = s:red.gui
-    let g:terminal_color_10           = s:green.gui
-    let g:terminal_color_11           = s:yellow.gui
-    let g:terminal_color_12           = s:blue.gui
-    let g:terminal_color_13           = s:purple.gui
-    let g:terminal_color_14           = s:cyan.gui
-    let g:terminal_color_15           = s:white.gui
+    let g:terminal_color_8            = s:bg.gui
+    let g:terminal_color_9            = s:red2.gui
+    let g:terminal_color_10           = s:green2.gui
+    let g:terminal_color_11           = s:orange2.gui
+    let g:terminal_color_12           = s:blue2.gui
+    let g:terminal_color_13           = s:purple2.gui
+    let g:terminal_color_14           = s:cyan2.gui
+    let g:terminal_color_15           = s:white2.gui
     let g:terminal_color_background   = s:bg.gui
     let g:terminal_color_foreground   = s:fg.gui
   endif
