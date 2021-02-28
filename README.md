@@ -57,7 +57,7 @@ Lighthaus theme for vim can be installed using any vim plugin manager such as [v
 
 Installation instruction for the plugin managers can be found on their own official pages.
 For Installation with [vim-plug](https://github.com/junegunn/vim-plug): 
-- Add `Plug 'lighthaus-theme/vim'` to the _vim-plug's_ installation function in your `vimrc`
+- Add `Plug 'lighthaus-theme/vim-lighthaus'` to the _vim-plug's_ installation function in your `vimrc`
 - Run `:PlugInstall` inside vim
 - Activate the theme by adding `colorscheme lighthaus` in your `vimrc`
 - Restart vim
