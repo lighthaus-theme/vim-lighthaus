@@ -4,6 +4,7 @@
 - [vim](#vim)
   - v1.0.0
   - v1.0.1
+  - v1.1.1
 - [Vim-Airline](#vim-airline)
   - v1.0.2
   - v1.0.1
@@ -14,6 +15,9 @@
 - [License](#license)
 
 ### Vim
+#### v1.1.1
+- Nvim-Treesitter support added (06/03/2021)
+
 #### v1.0.1
 - Neovim colors corrected (27/02/2021)
 

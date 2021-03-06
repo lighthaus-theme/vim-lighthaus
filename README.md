@@ -28,6 +28,7 @@ It comes with support for the following popular plugins:
 - [coc](https://github.com/neoclide/coc.nvim)
 - [fugitive](https://github.com/tpope/vim-fugitive)
 - [gitgutter](https://github.com/airblade/vim-gitgutter)
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
 - [vim-plug](https://github.com/junegunn/vim-plug)
 - [vim-signature](https://github.com/kshenoy/vim-signature)

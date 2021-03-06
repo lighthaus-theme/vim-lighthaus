@@ -365,6 +365,7 @@ hi link gitcommitDiscarded Comment
 
 " ― ― ― ― ― ― ― ― ― 
 " NERDTREE
+" https://github.com/preservim/nerdtree
 " ― ― ― ― ― ― ― ― ― 
 " {
 call s:h("NerdTreeClosable",    s:orange2,    "",   "")
@@ -380,6 +381,43 @@ call s:h("NerdTreeHelp",        s:white2,     "",   "")
 call s:h("NerdTreeUp",          s:orange,     "",   "")
 
 call s:h("NerdTreeFlags",       s:cyan2,      "",   "")
+" }
+
+
+" ― ― ― ― ― ― ― ― ― 
+" TREESITTER
+" https://github.com/nvim-treesitter/nvim-treesitter
+" ― ― ― ― ― ― ― ― ― 
+" {
+call s:h("TSTypeBuiltin",       s:orange2,      "",   "")
+hi link TSInclude Include
+hi link TSParameter Parameter
+hi link TSPunctBracket MatchParem
+hi link TSPunctDelimiter Delimiter
+hi link TSType Type
+
+hi link TSFunction Function
+hi link TSFuncMacro Macro
+hi link TSKeyword Keyword
+hi link TSKeywordFunction Keyword
+hi link TSKeywordOperator Operator
+hi link TSLabel Label
+hi link TSOperator Operator
+hi link TSPunctSpecial Special
+hi link TSStructure Structure
+hi link TSTag Tag
+
+hi link TSBoolean Boolean
+hi link TSConstant Constant
+hi link TSFloat Float
+hi link TSString String
+hi link TSNumber Number
+call s:h("TSStringRegex",       s:cyan2,      "",   "")
+call s:h("TSVariable",          s:blue2,      "",   "")
+call s:h("TSVariableBuiltin",   s:blue2,      "",   "")
+
+hi link TSError ErrorMsg
+hi link TSException Exception
 " }
 
 
