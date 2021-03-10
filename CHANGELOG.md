@@ -5,6 +5,7 @@
   - v1.0.0
   - v1.0.1
   - v1.1.1
+  - v1.1.2
 - [Vim-Airline](#vim-airline)
   - v1.0.2
   - v1.0.1
@@ -15,6 +16,10 @@
 - [License](#license)
 
 ### Vim
+#### v1.1.2
+- Better coc support added (10/03/2021)
+- Added option for vertical separator color. See [Issue](https://github.com/lighthaus-theme/vim-lighthaus/issues/3)
+
 #### v1.1.1
 - Nvim-Treesitter support added (06/03/2021)
 

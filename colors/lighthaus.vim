@@ -17,7 +17,7 @@ if exists("syntax_on")
 endif
 
 let g:colors_name = "lighthaus"
-let g:version     = "1.0.1"
+let g:version     = "1.1.2"
 " }
 
 
@@ -64,7 +64,8 @@ let s:non_text        = { "gui": "#373C45", "cterm": "239" }
 let s:selection_bg    = s:hl_bg
 let s:selection_fg    = s:hl_orange
 
-let s:vsplit_fg       = s:white2
+let s:vsplit_fg       = s:hl_bg
+let s:vsplit_fg_light = s:white2
 let s:vsplit_bg       = s:black
 
 
@@ -95,6 +96,13 @@ function! s:h(group, fg, bg, attr)
     exec "hi " . a:group . " gui=NONE cterm=NONE"
   endif
 endfun
+
+
+" OPTIONS {
+if !exists("g:lighthaus_vsplit_line_light")
+  let g:lighthaus_vsplit_line_light = 0
+endif
+" }
 
 
 " ― ― ― ― ― ― ― ― ― 
@@ -142,11 +150,17 @@ call s:h("PmenuThumb",    s:white,        s:black,      "")
 "  COLUMNS
 " ― ― ― ― ― ― ― ― ― 
 " {
-call s:h("Conceal",       s:fg,           "",             "")
-call s:h("VertSplit",     s:vsplit_fg,    s:vsplit_bg,    "")
-call s:h("Folded",        s:purple2,      "",             "")
-call s:h("FoldColumn",    s:line_fg,      "",             "")
-call s:h("SignColumn",    s:line_fg,      "",             "")
+call s:h("Conceal",       s:fg,                 "",             "")
+
+if g:lighthaus_vsplit_line_light == 0
+  call s:h("VertSplit",   s:vsplit_fg,          s:vsplit_bg,   s:B)
+else
+  call s:h("VertSplit",   s:vsplit_fg_light,    s:vsplit_bg,    "")
+endif
+
+call s:h("Folded",        s:purple2,            "",             "")
+call s:h("FoldColumn",    s:line_fg,            "",             "")
+call s:h("SignColumn",    s:line_fg,            "",             "")
 " }
 
 
@@ -298,11 +312,11 @@ hi link markdownH4 markdownH1
 hi link markdownH5 markdownH1
 hi link markdownH6 markdownH1
 
-call s:h("markdownCode",            s:orange2,      "",  "")
-call s:h("markdownCodeBlock",       s:orange2,      "",  "")
+call s:h("markdownCode",                s:orange2,      "",  "")
+call s:h("markdownCodeBlock",           s:orange2,      "",  "")
 hi link markdownCodeDelimiter Delimiter
-call s:h("markdownCodeError",       s:red2,         "",  "")
-call s:h("markdownCodeSpecial",     s:orange,       "",  "")
+call s:h("markdownCodeError",           s:red2,         "",  "")
+call s:h("markdownCodeSpecial",         s:orange,       "",  "")
 
 call s:h("markdownUrl",                 s:purple,   "",  "")
 call s:h("markdownUrlTitleDelimiter",   s:cyan,     "",  "")
@@ -437,12 +451,14 @@ hi link vimUserFunc Function
 " https://github.com/dense-analysis/ale
 " ― ― ― ― ― ― ― ― ― 
 " {
-call s:h("CocErrorHighlight",     s:red2,       "",   "")
-call s:h("CocWarningHighlight",   s:orange2,    "",   "")
+call s:h("AleError",          s:red,        "",   "")
+call s:h("AleErrorSign",      s:red2,       "",   "")
 
-call s:h("CocErrorSign",          s:red,        "",   "")
-call s:h("CocHintSign",           s:fg_alt,     "",   "")
-call s:h("CocInfoSign",           s:purple,     "",   "")
+call s:h("AleInfo",           s:purple,     "",   "")
+call s:h("AleInfoSign",       s:purple2,    "",   "")
+
+call s:h("AleWarning",        s:orange,     "",   "")
+call s:h("AleWarningSign",    s:orange2,    "",   "")
 " }
 
 
@@ -451,14 +467,19 @@ call s:h("CocInfoSign",           s:purple,     "",   "")
 " https://github.com/neoclide/coc.nvim
 " ― ― ― ― ― ― ― ― ― 
 " {
-call s:h("AleError",          s:red,        "",   "")
-call s:h("AleErrorSign",      s:red2,       "",   "")
+call s:h("CocInfoHighlight",          s:purple2,      "",   "")
+call s:h("CocErrorHighlight",         s:red2,         "",   "")
+call s:h("CocWarningHighlight",       s:orange2,      "",   "")
 
-call s:h("AleInfo",           s:purple,     "",   "")
+call s:h("CocErrorSign",              s:red,          "",   "")
+call s:h("CocHintSign",               s:fg_alt,       "",   "")
+call s:h("CocInfoSign",               s:purple,       "",   "")
+call s:h("CocWarningSign",            s:orange,       "",   "")
 
-call s:h("AleWarning",        s:orange,     "",   "")
-call s:h("AleWarningSign",    s:orange2,    "",   "")
-
+call s:h("CocGitAddedSign",           s:green,        "",   "")
+call s:h("CocGitChangedSign",         s:hl_yellow,    "",   "")
+call s:h("CocGitChangeRemovedSign",   s:red,          "",   "")
+call s:h("CocGitRemovedSign",         s:red,          "",   "")
 " }
 
 

@@ -16,6 +16,7 @@ A [Lighthaus](https://github.com/lighthaus-theme/lighthaus) theme for [Lightline
   - [Vim](#vim)
   - [Vim-Airline](#vim-airline)
   - [Lightline](#lightline)
+- [Options](#options)
 - [Version](#version)
 - [Bugs/Issues](#bugs/issues)
 - [License](#license)
@@ -40,10 +41,10 @@ Vim
 <p align="center"><img src="https://github.com/lighthaus-theme/vim/blob/master/assets/vim3.png?raw=true"><p>
 
 Vim-Airline
-<p align="center"><img src="https://github.com/lighthaus-theme/vim/blob/master/assets/lighthaus-airline.png?raw=true"><p>
+<p align="center"><img src="https://github.com/lighthaus-theme/vim-lighthaus/blob/master/assets/airline.png?raw=true"><p>
 
 Lightline-Vim
-<p align="center"><img src="https://github.com/lighthaus-theme/vim/blob/master/assets/lighthaus-lightline.png?raw=true"><p>
+<p align="center"><img src="https://github.com/lighthaus-theme/vim-lighthaus/blob/master/assets/lightline.png?raw=true"><p>
 
 Vim-Airline demo
 <p align="center"><img src="https://raw.githubusercontent.com/lighthaus-theme/demo-assets/main/assets/airline.gif"><p>
@@ -57,7 +58,7 @@ Lightline demo
 Lighthaus theme for vim can be installed using any vim plugin manager such as [vim-pathogen](https://github.com/tpope/vim-pathogen), [vundle](https://github.com/VundleVim/Vundle.vim) and [vim-plug](https://github.com/junegunn/vim-plug).
 
 Installation instruction for the plugin managers can be found on their own official pages.
-For Installation with [vim-plug](https://github.com/junegunn/vim-plug): 
+For Installation with [vim-plug](https://github.com/junegunn/vim-plug):
 - Add `Plug 'lighthaus-theme/vim-lighthaus'` to the _vim-plug's_ installation function in your `vimrc`
 - Run `:PlugInstall` inside vim
 - Activate the theme by adding `colorscheme lighthaus` in your `vimrc`
@@ -89,9 +90,18 @@ let g:lightline = {
 ```
 Save and restart vim to activate the theme.
 
+### Options
+**Options have to be set before `colorscheme lighthaus` line in your `vimrc` !**
+- Vertical Split Line Color can be changed depending on preference.
+To have a brighter and more prominent vertical split line, set the following option to `1` in your `vimrc`. _Default is dark_
+    ```vim
+    let g:lighthaus_vsplit_line_light = 1
+    ```
+    <p align="center"><img src="https://github.com/lighthaus-theme/vim-lighthaus/blob/master/assets/vim_vsplit.gif?raw=true"><p>
+
 ### Version
 ```vim
-v 1.0.1 vim
+v 1.1.2 vim
 v 1.0.2 vim-airline
 v 1.0.0 lightline
 ```
