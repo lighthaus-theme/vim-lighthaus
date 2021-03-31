@@ -17,12 +17,14 @@ if exists("syntax_on")
 endif
 
 let g:colors_name = "lighthaus"
-let g:version     = "1.1.2"
+let g:version     = "1.2.2"
 " }
 
 
 " LIGHTHAUS COLORS {
 let s:black           = { "gui": "#21252D", "cterm": "234" }
+
+let s:grey            = { "gui": "#8E8D8D", "cterm": "246" }
 
 let s:red             = { "gui": "#FC2929", "cterm": "79"  }
 let s:red2            = { "gui": "#FF5050", "cterm": "79"  }
@@ -55,7 +57,7 @@ let s:hl_bg           = { "gui": "#090B26", "cterm": "234" }
 " }
 
 
-let s:line_fg         = { "gui": "#747578", "cterm": "175" }
+let s:line_fg         = s:grey
 
 let s:gutter_bg       = { "gui": "#282c34", "cterm": "236" }
 let s:non_text        = { "gui": "#373C45", "cterm": "239" }
@@ -349,7 +351,17 @@ call s:h("sqlSpecial",    s:orange2,    "",   "")
 
 
 " ― ― ― ― ― ― ― ― ― 
+" BEACON.NVIM
+" https://github.com/DanilaMihailov/beacon.nvim
+" ― ― ― ― ― ― ― ― ― 
+" {
+call s:h("Beacon",    "",    s:grey,   "")
+" }
+
+
+" ― ― ― ― ― ― ― ― ― 
 " CtrlP
+" https://github.com/kien/ctrlp.vim
 " ― ― ― ― ― ― ― ― ― 
 " {
 call s:h("CtrlPMatch",    s:cyan2,    "",   "")
@@ -549,7 +561,7 @@ call s:h("SignatureMarkText",   s:hl_orange,    "",   "")
     let g:terminal_color_5            = s:purple.gui
     let g:terminal_color_6            = s:cyan.gui
     let g:terminal_color_7            = s:white.gui
-    let g:terminal_color_8            = s:bg.gui
+    let g:terminal_color_8            = s:grey.gui
     let g:terminal_color_9            = s:red2.gui
     let g:terminal_color_10           = s:green2.gui
     let g:terminal_color_11           = s:orange2.gui

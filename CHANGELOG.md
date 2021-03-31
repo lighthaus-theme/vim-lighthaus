@@ -16,6 +16,10 @@
 - [License](#license)
 
 ### Vim
+#### v1.2.2
+- Beacon.nvim support added (31/03/2021)
+- Added `grey` color to correct contrast issue. See [Issue](https://github.com/lighthaus-theme/lighthaus/issues/3)
+
 #### v1.1.2
 - Better coc support added (10/03/2021)
 - Added option for vertical separator color. See [Issue](https://github.com/lighthaus-theme/vim-lighthaus/issues/3)

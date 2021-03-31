@@ -26,6 +26,7 @@ Lighthaus theme for vim makes it easy to view and edit files.
 Lighthaus aims to not flood your screen with colors but instead let's you focus on the work with relevant colors aiding in your workflow.
 It comes with support for the following popular plugins:
 - [ale](https://github.com/dense-analysis/ale)
+- [beacon](https://github.com/DanilaMihailov/beacon.nvim)
 - [coc](https://github.com/neoclide/coc.nvim)
 - [fugitive](https://github.com/tpope/vim-fugitive)
 - [gitgutter](https://github.com/airblade/vim-gitgutter)
@@ -62,7 +63,7 @@ For Installation with [vim-plug](https://github.com/junegunn/vim-plug):
 - Add `Plug 'lighthaus-theme/vim-lighthaus'` to the _vim-plug's_ installation function in your `vimrc`
 - Run `:PlugInstall` inside vim
 - Activate the theme by adding `colorscheme lighthaus` in your `vimrc`
-- Restart vim
+- Restart vim or run `:source ~/.vimrc` to reload the config.
 
 #### Vim-Airline
 Lighthaus theme comes bundled with vim-airline.
@@ -101,7 +102,7 @@ To have a brighter and more prominent vertical split line, set the following opt
 
 ### Version
 ```vim
-v 1.1.2 vim
+v 1.2.2 vim
 v 1.0.2 vim-airline
 v 1.0.0 lightline
 ```
