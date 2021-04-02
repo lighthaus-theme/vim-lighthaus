@@ -346,6 +346,15 @@ call s:h("sqlKeyword",    s:cyan2,      "",   "")
 call s:h("sqlSpecial",    s:orange2,    "",   "")
 " }
 
+" ― ― ― ― ― ― ― ― ― 
+" ―  VIMWIKI ― 
+" ― ― ― ― ― ― ― ― ― 
+call s:h("VimwikiHeader1",   s:blue,    "",   s:B)
+call s:h("VimwikiHeader2",   s:orange,  "",   s:B)
+call s:h("VimwikiHeader3",   s:green,   "",   s:B)
+call s:h("VimwikiHeader4",   s:purple,  "",   s:B)
+call s:h("VimwikiHeader5",   s:cyan,    "",   s:B)
+call s:h("VimwikiHeader6",   s:red,     "",   s:B)
 
 " + + + + + + + + + PLUGINS + + + + + + + + +
 
