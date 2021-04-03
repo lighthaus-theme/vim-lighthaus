@@ -346,15 +346,6 @@ call s:h("sqlKeyword",    s:cyan2,      "",   "")
 call s:h("sqlSpecial",    s:orange2,    "",   "")
 " }
 
-" ― ― ― ― ― ― ― ― ― 
-" ―  VIMWIKI ― 
-" ― ― ― ― ― ― ― ― ― 
-call s:h("VimwikiHeader1",   s:fg_alt,  "",   s:B)
-call s:h("VimwikiHeader2",   s:green,   "",   s:B)
-call s:h("VimwikiHeader3",   s:orange,  "",   s:B)
-call s:h("VimwikiHeader4",   s:purple,  "",   s:B)
-call s:h("VimwikiHeader5",   s:cyan,    "",   s:B)
-call s:h("VimwikiHeader6",   s:blue,    "",   s:B)
 
 " + + + + + + + + + PLUGINS + + + + + + + + +
 
@@ -554,9 +545,21 @@ call s:h("plugDeleted",   s:red,      "",   "")
 " ― ― ― ― ― ― ― ― ― 
 " {
 call s:h("SignatureMarkText",   s:hl_orange,    "",   "")
-
-
 " }
+
+
+" ― ― ― ― ― ― ― ― ― 
+" ―  VIMWIKI ― 
+" https://github.com/vimwiki/vimwiki
+" ― ― ― ― ― ― ― ― ― 
+call s:h("VimwikiHeader1",   s:hl_yellow,   "",   s:B)
+call s:h("VimwikiHeader2",   s:green,       "",   s:B)
+call s:h("VimwikiHeader3",   s:orange2,     "",   s:B)
+call s:h("VimwikiHeader4",   s:purple,      "",   s:B)
+call s:h("VimwikiHeader5",   s:cyan,        "",   s:B)
+call s:h("VimwikiHeader6",   s:white,       "",   s:B)
+
+
 " ― ― ― ― ― ― ― ― ― 
 " NEOVIM COLOR BUFFER
 " ― ― ― ― ― ― ― ― ― 
