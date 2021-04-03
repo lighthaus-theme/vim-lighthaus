@@ -6,6 +6,8 @@
   - v1.0.1
   - v1.1.1
   - v1.1.2
+  - v1.2.2
+  - v1.3.2
 - [Vim-Airline](#vim-airline)
   - v1.0.2
   - v1.0.1
@@ -16,6 +18,9 @@
 - [License](#license)
 
 ### Vim
+#### v1.3.2
+- Vimwiki support added. View [PR here](https://github.com/lighthaus-theme/vim-lighthaus/pull/5) (03/04/2021)
+
 #### v1.2.2
 - Beacon.nvim support added (31/03/2021)
 - Added `grey` color to correct contrast issue. See [Issue](https://github.com/lighthaus-theme/lighthaus/issues/3)
