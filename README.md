@@ -29,6 +29,7 @@ It comes with support for the following popular plugins:
 - [beacon](https://github.com/DanilaMihailov/beacon.nvim)
 - [coc](https://github.com/neoclide/coc.nvim)
 - [fugitive](https://github.com/tpope/vim-fugitive)
+- [fzf](https://github.com/junegunn/fzf)
 - [gitgutter](https://github.com/airblade/vim-gitgutter)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
@@ -103,7 +104,7 @@ To have a brighter and more prominent vertical split line, set the following opt
 
 ### Version
 ```vim
-v 1.3.2 vim
+v 1.4.3 vim
 v 1.0.2 vim-airline
 v 1.0.0 lightline
 ```

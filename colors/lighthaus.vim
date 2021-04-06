@@ -17,7 +17,7 @@ if exists("syntax_on")
 endif
 
 let g:colors_name = "lighthaus"
-let g:version     = "1.2.2"
+let g:version     = "1.4.3"
 " }
 
 
@@ -137,9 +137,9 @@ call s:h("DiffLine",      s:blue,         "",           "")
 call s:h("DiffFile",      s:purple,       "",           "")
 call s:h("DiffNewFile",   s:hl_yellow,    "",           "")
 
-call s:h("ErrorMsg",      s:black,        s:red2,       "")
-call s:h("WarningMsg",    s:black,        s:orange2,    "")
-call s:h("Question",      s:black,        s:purple2,    "")
+call s:h("ErrorMsg",      s:red2,         s:bg,         "")
+call s:h("WarningMsg",    s:orange2,      s:bg,         "")
+call s:h("Question",      s:purple2,      s:bg,         "")
 
 call s:h("Pmenu",         s:white2,       s:black,      "")
 call s:h("PmenuSel",      s:hl_orange,    s:hl_bg,      "")
@@ -365,6 +365,45 @@ call s:h("Beacon",    "",    s:grey,   "")
 " ― ― ― ― ― ― ― ― ― 
 " {
 call s:h("CtrlPMatch",    s:cyan2,    "",   "")
+" }
+
+
+" ― ― ― ― ― ― ― ― ― 
+" FZF
+" https://github.com/junegunn/fzf.vim
+" ― ― ― ― ― ― ― ― ― 
+call s:h("FZF_fg",        s:white,        "",         "")
+call s:h("FZF_bg",        "",             s:black,    "")
+call s:h("FZF_hl",        s:hl_yellow,    "",         "")
+
+call s:h("FZF_fg2",       s:fg_alt,       "",         s:B)
+call s:h("FZF_hl2",       s:orange2,      "",         s:B)
+
+call s:h("FZF_info",      s:purple2,      "",         "")
+call s:h("FZF_border",    s:blue,         "",         "")
+
+call s:h("FZF_prompt",    s:green2,       "",         "")
+call s:h("FZF_pointer",   s:hl_yellow,    "",         s:B)
+call s:h("FZF_marker",    s:red,          "",         "")
+call s:h("FZF_spinner",   s:cyan2,        "",         "")
+call s:h("FZF_header",    s:blue,         "",         "")
+
+" {
+let g:fzf_colors =
+\ { 'fg':      ['fg', 'FZF_fg'],
+  \ 'bg':      ['bg', 'FZF_bg'],
+  \ 'hl':      ['fg', 'FZF_hl'],
+  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'FZF_fg2'],
+  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+  \ 'hl+':     ['fg', 'FZF_hl2'],
+  \ 'info':    ['fg', 'FZF_info'],
+  \ 'border':  ['fg', 'FZF_border'],
+  \ 'prompt':  ['fg', 'FZF_prompt'],
+  \ 'pointer': ['fg', 'FZF_pointer'],
+  \ 'marker':  ['fg', 'FZF_marker'],
+  \ 'spinner': ['fg', 'FZF_spinner'],
+  \ 'header':  ['fg', 'FZF_header'] }
+
 " }
 
 
