@@ -8,6 +8,7 @@
   - v1.1.2
   - v1.2.2
   - v1.3.2
+  - v1.4.3
 - [Vim-Airline](#vim-airline)
   - v1.0.2
   - v1.0.1
@@ -18,6 +19,10 @@
 - [License](#license)
 
 ### Vim
+#### v1.4.3
+- Better fzf support added.
+- `ErrorMsg` `WarningMsg` `Question` colors edited. See Release v1.4.3 for screenshots.(03/04/2021)
+
 #### v1.3.2
 - Vimwiki support added. View [PR here](https://github.com/lighthaus-theme/vim-lighthaus/pull/5) (03/04/2021)
 
