@@ -1,22 +1,23 @@
-*lighthaus.txt* 		For Vim version 8 or newer		Last change: 2021 Feb 24
+*lighthaus.txt* 		For Vim version 8 or newer		Last change: 08 April 2021
 
 				Lighthaus Vim Theme
-                                                                *lighthaus*
-                                                                *lighthaus-theme*
-                                                                *lighthaus-colorscheme*
-                                                                *lighthaus-vim*
+                                                                            *lighthaus*
+                                                                            *lighthaus-theme*
+                                                                            *lighthaus-colorscheme*
+                                                                            *lighthaus-vim*
 
-====================================================================================
-CONTENTS                                                          *lighthaus-contents*
+================================================================================================
+CONTENTS                                                                    *lighthaus-contents*
 
-    1. Intro ---------------------------------------------------- |lighthaus-intro|
-    2. Install -------------------------------------------------- |lighthaus-install|
-    3. Bugs ----------------------------------------------------- |lighthaus-bugs|
-    4. License -------------------------------------------------- |lighthaus-license|
-    5. Artwork -------------------------------------------------- |lighthaus-artwork|
+    1. Intro ------------------------------------------------------------------- |lighthaus-intro|
+    2. Install --------------------------------------------------------------- |lighthaus-install|
+    3. Contribute ----------------------------------------------------------|lighthaus-contribute|
+    4. Bugs --------------------------------------------------------------------- |lighthaus-bugs|
+    5. License --------------------------------------------------------------- |lighthaus-license|
+    6. Artwork --------------------------------------------------------------- |lighthaus-artwork|
 
-====================================================================================
-INTRO                                                                *lighthaus-intro*
+================================================================================================
+INTRO                                                                           *lighthaus-intro*
 
 Lighthaus aims to be a palette with a mixture of bright and subdued colors to create 
 a visually balanced theme.
@@ -31,8 +32,8 @@ Lighthaus vim plugin contains the following:
     - Lighthaus colorscheme for lightline
       https://github.com/itchyny/lightline.vim
 
-====================================================================================
-INSTALL                                                            *lighthaus-install*
+================================================================================================
+INSTALL                                                                       *lighthaus-install*
 
 Lighthaus can be installed using any of the popular plugin managers like:
     - Vim-Pathogen: https://github.com/tpope/vim-pathogen
@@ -66,23 +67,32 @@ To use Lighthaus colorscheme for lightline, put the following line in your
     `let g:lightline = { 'colorscheme': 'lighthaus' }`
 Save and restart vim to activate.
 
-====================================================================================
-BUGS                                                                  *lighthaus-bugs*
+================================================================================================
+CONTRIBUTE                                                                 *lighthaus-contribute*
 
-If you would like to report any bugs, go to the following link and start a new
-issue
-https://github.com/lighthaus-theme/vim/issues
+New pull requests are always welcome. Use the PR template 
+https://github.com/lighthaus-theme/lighthaus/blob/master/PULL_REQUEST_TEMPLATE.md
 
-====================================================================================
-LICENSE                                                            *lighthaus-license*
+See the CONTRIBUTING.md here: 
+https://github.com/lighthaus-theme/lighthaus/blob/master/CONTRIBUTING.md
+
+================================================================================================
+BUGS                                                                             *lighthaus-bugs*
+
+If you would like to report any bugs, use the issues template
+https://github.com/lighthaus-theme/lighthaus/blob/master/ISSUE_TEMPLATE.md
+and report the issues here: https://github.com/lighthaus-theme/vim/issues
+
+================================================================================================
+LICENSE                                                                      *lighthaus-license*
 
 MIT License : https://github.com/lighthaus-theme/vim/blob/master/LICENSE
 Copyright (c) 2020 Lighthaus Theme
 Copyright (c) 2020 Adhiraj Sirohi
 Copyright (c) 2020 Vasundhara Sharma
 
-====================================================================================
-ARTWORK                                                            *lighthaus-artwork*
+================================================================================================
+ARTWORK                                                                      *lighthaus-artwork*
 
 Artwork courtesy Vasundhara Sharma
 https://vasdesigns.de/
