@@ -134,8 +134,8 @@ Please report any bugs or issues [here](https://github.com/lighthaus-theme/vim/i
 
 ### License
 
-_Copyright © 2020-Present Lighthaus Theme_
-_Copyright © 2020-Present Adhiraj Sirohi_
+_Copyright © 2020-Present Lighthaus Theme_<br>
+_Copyright © 2020-Present Adhiraj Sirohi_<br>
 _Copyright © 2020-Present Vasundhara Sharma_
 
 <p align="left"><a href="https://github.com/Brutuski/lighthaus-vim-airline/blob/master/LICENSE"><img src="https://img.shields.io/static/v1.svg??style=flat&logo=appveyore&label=License&message=MIT&colorA=1C918A&colorB=50C16E"/></a></p>
