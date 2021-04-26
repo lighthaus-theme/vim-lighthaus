@@ -40,6 +40,8 @@ It comes with support for the following popular plugins:
 - [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
 - [vim-plug](https://github.com/junegunn/vim-plug)
 - [vim-signature](https://github.com/kshenoy/vim-signature)
+- [vim-signify](https://github.com/mhinz/vim-signify)
+- [vim-startify](https://github.com/mhinz/vim-startify)
 - [vimwiki](https://github.com/vimwiki/vimwiki)
 
 ### Screenshots
@@ -121,7 +123,7 @@ Pull Request Template can be found [here](https://github.com/lighthaus-theme/lig
 ### Version
 
 ```vim
-v 1.4.3 vim
+v 1.5.3 vim
 v 1.0.2 vim-airline
 v 1.0.0 lightline
 ```

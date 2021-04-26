@@ -588,6 +588,35 @@ call s:h("SignatureMarkText",   s:hl_orange,    "",   "")
 
 
 " ― ― ― ― ― ― ― ― ― 
+" VIM SIGNIFY
+" https://github.com/mhinz/vim-signify
+" ― ― ― ― ― ― ― ― ― 
+" {
+hi link SignifySignAdd GitGutterAdd
+hi link SignifySignChange GitGutterChange
+hi link SignifySignDelete GitGutterDelete
+" }
+
+
+" ― ― ― ― ― ― ― ― ― 
+" VIM STARTIFY
+" https://github.com/mhinz/vim-startify
+" ― ― ― ― ― ― ― ― ― 
+" {
+call s:h("StartifyBracket",   s:grey,         "",             "")
+call s:h("StartifyFile",      s:green2,       "",             "")
+call s:h("StartifyFooter",    s:grey,         "",             "")
+call s:h("StartifyHeader",    s:cyan2,        "",             "")
+call s:h("StartifyNumber",    s:purple,       "",             "")
+call s:h("StartifyPath",      s:white2,       s:bg,           "")
+call s:h("StartifySection",   s:blue2,        "",             "")
+call s:h("StartifySelect",    s:bg,           s:hl_yellow,    "")
+call s:h("StartifySlash",     s:white2,       "",             "")
+call s:h("StartifySpecial",   s:hl_orange,    "",             "")
+" }
+
+
+" ― ― ― ― ― ― ― ― ― 
 " ―  VIMWIKI ― 
 " https://github.com/vimwiki/vimwiki
 " ― ― ― ― ― ― ― ― ― 
