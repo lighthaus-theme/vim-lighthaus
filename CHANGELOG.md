@@ -21,7 +21,7 @@
 
 ### Vim
 #### v1.5.3
-- Support added for [vim-signify](https://github.com/mhinz/vim-signify) [vim-startify](https://github.com/mhinz/vim-startify) _(27/04/2021)_
+- Support added for [vim-signify](https://github.com/mhinz/vim-signify) and  [vim-startify](https://github.com/mhinz/vim-startify) _(27/04/2021)_
 
 #### v1.4.3
 - Better fzf support added.
