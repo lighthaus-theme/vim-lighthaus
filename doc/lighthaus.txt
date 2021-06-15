@@ -1,6 +1,6 @@
 *lighthaus.txt* 		For Vim version 8 or newer		Last change: 08 April 2021
 
-				Lighthaus Vim Theme
+                Lighthaus Vim Theme
                                                                             *lighthaus*
                                                                             *lighthaus-theme*
                                                                             *lighthaus-colorscheme*
@@ -24,7 +24,7 @@ a visually balanced theme.
 For all details and screenshots, please refer to the github repo 
 https://github.com/lighthaus-theme/vim
 
-Lighthaus vim plugin contains the following:
+Lighthaus (n)vim plugin contains the following:
 
     - Lighthaus colorscheme for vim
     - Lighthaus colorscheme for vim-airline

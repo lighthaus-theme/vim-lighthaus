@@ -17,7 +17,7 @@ if exists("syntax_on")
 endif
 
 let g:colors_name = "lighthaus"
-let g:version     = "1.4.3"
+let g:version     = "1.6.3"
 " }
 
 
@@ -284,16 +284,53 @@ call s:h("Debug",           s:fg,         "",   "")
 call s:h("Ignore",          s:white2,     "",   "")
 " }
 
+
+" ― ― ― ― ― ― ― 
+" ―  GO LANG ― 
+" ― ― ― ― ― ― ― 
+" {
+call s:h("goDirective",         s:purple2,      "",   "")
+call s:h("goDeclType",          s:hl_yellow,    "",   "")
+call s:h("goDeclaration",       s:cyan,         "",   "")
+call s:h("goBuiltins",          s:fg_alt,       "",   "")
+call s:h("goVarDefs",           s:cyan2,        "",   "")
+call s:h("goVarAssign",         s:blue2,        "",   "")
+call s:h("goVar",               s:purple2,      "",   "")
+call s:h("goDeclType",          s:orange2,      "",   "")
+call s:h("goSemicolon",         s:white2,       "",   "")
+call s:h("goQuotationsMarks",   s:white2,       "",   "")
+hi link goConstants Constant
+hi link goFunctionCall Function
+hi link goEscapeError ErrorMsg
+hi link goType Type
+hi link goTypeName Typedef
+" }
+
+
 " ― ― ― ― ― ― 
-" ―  JAVA―
+" ―  JAVA ―
 " ― ― ― ― ― ― 
 " {
 call s:h("javaOperator",    s:cyan2,      "",   "")
 call s:h("javaVarArg",      s:purple2,    "",   "")
-
 " }
+
+
 " ― ― ― ― ― ― 
-" ―  MAKE―
+" ―  JSON ―
+" ― ― ― ― ― ― 
+" {
+call s:h("jsonKeyword",   s:purple2,      "",   "")
+call s:h("jsonNoise",     s:white,        "",   "")
+call s:h("jsonQuote",     s:grey,         "",   "")
+call s:h("jsonBraces",    s:hl_orange,    "",   "")
+hi link jsonBoolean Boolean
+hi link jsonString String
+" }
+
+
+" ― ― ― ― ― ― 
+" ―  MAKE ―
 " ― ― ― ― ― ― 
 " {
 call s:h("makePreCondit",    s:purple2,   "",   "")
@@ -325,9 +362,9 @@ call s:h("markdownUrlTitleDelimiter",   s:cyan,     "",  "")
 " }
 
 
-" ― ― ― ― ― ― ― ― ― 
+" ― ― ― ― ― ― ―
 " ―  PYTHON ― 
-" ― ― ― ― ― ― ― ― ― 
+" ― ― ― ― ― ― ― 
 " {
 call s:h("pythonConditional",     s:purple2,    "",   "")
 call s:h("pythonException",       s:purple2,    "",   "")
@@ -338,13 +375,30 @@ call s:h("pythonStatement",       s:cyan,       "",   "")
 call s:h("pythonBoolean",         s:blue2,      "",   "")
 " }
 
-" ― ― ― ― ― ― ― ― ― 
+
+" ― ― ― ― ― 
 " ―  SQL ― 
-" ― ― ― ― ― ― ― ― ― 
+" ― ― ― ― ― 
 " {
 call s:h("sqlKeyword",    s:cyan2,      "",   "")
 call s:h("sqlSpecial",    s:orange2,    "",   "")
 " }
+
+
+" ― ― ― ― ― ―
+" ―  YAML ― 
+" ― ― ― ― ― ―
+" {
+call s:h("yamlBlockMappingKey",   s:purple2,      "",   "")
+call s:h("yamlBool",              s:cyan2,        "",   "")
+call s:h("yamlDocumentStart",     s:hl_orange,    "",   "")
+call s:h("yamlKey",               s:purple,       "",   "")
+call s:h("yamlString",            s:green2,       "",   "")
+hi link yamlComment Comment
+hi link yamlConstant Constant
+hi link yamlKeyValueDelimiter Delimiter
+" }
+
 
 
 " + + + + + + + + + PLUGINS + + + + + + + + +
@@ -616,8 +670,28 @@ call s:h("StartifySpecial",   s:hl_orange,    "",             "")
 " }
 
 
+
 " ― ― ― ― ― ― ― ― ― 
-" ―  VIMWIKI ― 
+" VIMTEX
+" vimtex: https://github.com/lervag/vimtex
+" ― ― ― ― ― ― ― ― ― 
+" {
+call s:h("texCmd",              s:cyan2,        "",   "")
+call s:h("texCmdAuthor",        s:fg_alt,       "",   s:B)
+call s:h("texCmdClass",         s:hl_yellow,    "",   "")
+call s:h("texCmdTitle",         s:fg_alt,       "",   s:B)
+call s:h("texCmdDef",           s:purple,       "",   "")
+call s:h("texCmdEnv",           s:purple,       "",   "")
+call s:h("texCmdPart",          s:purple,       "",   "")
+call s:h("texDefArgName",       s:orange2,      "",   "")
+call s:h("texEnvArgName",       s:green2,       "",   "")
+call s:h("texFileArg",          s:blue2,        "",   "")
+call s:h("texMathEnvArgName",   s:green2,       "",   "")
+" }
+
+
+" ― ― ― ― ― ― ― ― ― 
+" VIMWIKI 
 " https://github.com/vimwiki/vimwiki
 " ― ― ― ― ― ― ― ― ― 
 call s:h("VimwikiHeader1",   s:hl_yellow,   "",   s:B)

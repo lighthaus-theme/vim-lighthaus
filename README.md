@@ -19,7 +19,6 @@ A [Lighthaus](https://github.com/lighthaus-theme/lighthaus) theme for [Vim](http
   - [Vim-Airline](#vim-airline)
   - [Lightline](#lightline)
 - [Options](#options)
-- [Options](#options)
 - [Contributing](#contributing)
 - [Version](#version)
 - [Bugs/Issues](#bugs/issues)
@@ -42,6 +41,7 @@ It comes with support for the following popular plugins:
 - [vim-signature](https://github.com/kshenoy/vim-signature)
 - [vim-signify](https://github.com/mhinz/vim-signify)
 - [vim-startify](https://github.com/mhinz/vim-startify)
+- [vimtex](https://github.com/lervag/vimtex)
 - [vimwiki](https://github.com/vimwiki/vimwiki)
 
 ### Screenshots
@@ -123,7 +123,7 @@ Pull Request Template can be found [here](https://github.com/lighthaus-theme/lig
 ### Version
 
 ```vim
-v 1.5.3 vim
+v 1.6.3 vim
 v 1.0.2 vim-airline
 v 1.0.0 lightline
 ```

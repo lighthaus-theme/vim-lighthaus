@@ -2,6 +2,7 @@
 
 ### Table of Contents
 - [vim](#vim)
+  - v1.6.3
   - v1.5.3
   - v1.4.3
   - v1.3.2
@@ -20,6 +21,10 @@
 - [License](#license)
 
 ### Vim
+
+#### v1.6.3
+- Support added for [vimtex](https://github.com/lervag/vimtex). Better support for `json`, `go` and `yaml` files. _(15/06/2021)_
+
 #### v1.5.3
 - Support added for [vim-signify](https://github.com/mhinz/vim-signify) and  [vim-startify](https://github.com/mhinz/vim-startify) _(27/04/2021)_
 
