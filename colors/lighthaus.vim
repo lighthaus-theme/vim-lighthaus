@@ -531,9 +531,9 @@ hi link TSConstant Constant
 hi link TSFloat Float
 hi link TSString String
 hi link TSNumber Number
+hi link TSVariable Identifier
+hi link TSVariableBuiltin Identifier
 call s:h("TSStringRegex",       s:cyan2,      "",   "")
-call s:h("TSVariable",          s:blue2,      "",   "")
-call s:h("TSVariableBuiltin",   s:blue2,      "",   "")
 
 hi link TSError ErrorMsg
 hi link TSException Exception
